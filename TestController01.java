@@ -23,6 +23,7 @@ public class TestController01 {
     /*params,通过这个属性可以指定请求中必须携带的参数
         params={"!name",""age}
          params={"name",""age}
+         1
      */
 
     public ModelAndView reqget(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse) {
