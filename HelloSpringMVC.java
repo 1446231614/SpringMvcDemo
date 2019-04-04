@@ -16,7 +16,7 @@ public class HelloSpringMVC {
         mv.addObject("hello","hello first spring mvc");
         mv.setViewName("first");
         return mv;
-            /**通配符：在Requestmapping中可以使用*表示通配符
+            /**通配符：在Requestmapping中可以使用*表示通配符。
              *@RequestMapping("/hello*.do")
                @RequestMapping("/*hello.do")
              */
